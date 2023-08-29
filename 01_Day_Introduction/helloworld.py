@@ -11,6 +11,8 @@ print(3 // 2)  # Floor division operator(//)
 
 # Checking data types
 
+# Compared to JS, types are enforced in Python. You can't divide a string by a number: '4'/1 => NaN.
+
 print(type(10))                  # Int
 print(type(3.14))                # Float
 print(type(1 + 3j))              # Complex
